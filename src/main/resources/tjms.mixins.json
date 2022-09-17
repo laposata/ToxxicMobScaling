@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.dreamtea.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "HostileEntityMixin",
+    "LivingEntityMixin",
+    "equipment.ArmorItemMixin",
+    "equipment.ArmorMaterialsMixin",
+    "equipment.ToolItemMixin",
+    "equipment.ToolMaterialsMixin",
+    "mobs.BlazeEntityMixin",
+    "mobs.CaveSpiderEntityMixin",
+    "mobs.CreeperEntityMixin",
+    "mobs.DrownedEntityMixin",
+    "mobs.GhastEntityFireballMixin",
+    "mobs.GhastEntityMixin",
+    "mobs.PiglinEntityMixin",
+    "mobs.SpiderEntityMixin",
+    "mobs.ZombieEntityMixin",
+    "mobs.ZombifiedPiglinEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
